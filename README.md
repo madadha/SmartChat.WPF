@@ -67,3 +67,77 @@
 מה התאריך היום?
 
 ![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/q.png)
+
+
+---
+
+## 🖥️ מסכים במערכת
+
+### 📷 מסך ראשי (בחירת מודל)
+![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/main.png)
+
+---
+
+### 📷 מסך צ'אט Gemini
+![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/chat.png)
+
+---
+
+### 📷 מבנה הפרויקט
+![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/structure.png)
+
+---
+
+## 🔄 איך המערכת עובדת
+
+1. המשתמש שולח שאלה
+2. המערכת שולחת את השאלה ל-AI
+3. המודל מחליט האם להשתמש בכלי (Tool)
+4. אם כן:
+   - הכלי מופעל
+   - התוצאה מוחזרת למודל
+5. המודל מחזיר תשובה סופית למשתמש
+
+---
+
+## 🧪 דוגמאות לשימוש
+
+
+### שימוש ב-Calculator:
+## 📦 מבנה הפרויקט
+SmartChat.WPF
+│
+├── Models
+├── Services
+├── Tools
+├── Views
+├── Styles
+├── Helpers
+│
+├── App.xaml
+
+
+---
+
+## 🚀 הרצה
+
+1. פתח את הפרויקט ב-Visual Studio  
+2. הוסף מפתח API (Gemini / OpenAI)  
+3. הרץ את התוכנית  
+
+---
+
+## ⚠️ הערות חשובות
+
+- אין להעלות מפתחות API ל-GitHub
+- יש להשתמש ב-Environment Variables
+
+---
+
+## 🏁 סיכום
+
+המערכת מדגימה:
+- שילוב של בינה מלאכותית
+- עבודה עם Tools
+- פיתוח ממשק משתמש מתקדם ב-WPF
+
