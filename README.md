@@ -63,4 +63,7 @@
 
 
 
-דוגמה:
+דוגמה
+מה התאריך היום?
+
+![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/q.png)
