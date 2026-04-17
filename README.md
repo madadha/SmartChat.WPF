@@ -63,9 +63,9 @@
 
 ### 🧮 CalculatorTool
 מבצע חישובים מתמטיים.
-
+![CalculatorTool](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/CalculatorTool.png)
 דוגמה:
-כמה זה (10+5)*3?
+כמה זה (5*5)**
 
 ---
 
