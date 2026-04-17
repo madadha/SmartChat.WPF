@@ -4,13 +4,6 @@
 
 ---
 
-## 📌 פרטי הסטודנט
-
-- שם: עלאא אלמדאדחה  
-- תעודת זהות: 342542248  
-
----
-
 ## 🎯 מטרת הפרויקט
 
 מטרת הפרויקט היא לבנות מערכת צ'אט חכמה אשר:
@@ -39,18 +32,18 @@
 - ChatGPT
 
 ### ✅ זיכרון שיחה
-- שמירת היסטוריית השיחה
-- אפשרות לניקוי זיכרון
+- שמירת היסטוריית השיחה  
+- אפשרות לניקוי זיכרון  
 
 ### ✅ בחירת מודל
-- מסך ראשי לבחירת המודל
+- מסך ראשי לבחירת המודל  
 
 ### ✅ הזרמת תשובות (Streaming)
-- תשובות מוצגות בצורה הדרגתית
+- תשובות מוצגות בצורה הדרגתית  
 
 ### ✅ שימוש בכלים (Tools)
-- DateTime Tool (תאריך ושעה)
-- Calculator Tool (חישובים מתמטיים)
+- DateTime Tool (תאריך ושעה)  
+- Calculator Tool (חישובים מתמטיים)  
 
 ---
 
@@ -58,53 +51,65 @@
 
 ### 📅 DateTimeTool
 מחזיר:
-- תאריך נוכחי
-- שעה נוכחית
+- תאריך נוכחי  
+- שעה נוכחית  
 
-
-
-דוגמה
+דוגמה:
 מה התאריך היום?
 
-![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/q.png)
+![Date Tool](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/q.png)
 
+---
+
+### 🧮 CalculatorTool
+מבצע חישובים מתמטיים.
+
+דוגמה:
+כמה זה (10+5)*3?
 
 ---
 
 ## 🖥️ מסכים במערכת
 
 ### 📷 מסך ראשי (בחירת מודל)
-![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/main.png)
+![Main Screen](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/main.png)
 
 ---
 
 ### 📷 מסך צ'אט Gemini
-![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/chat.png)
+![Gemini Chat](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/chat.png)
 
 ---
 
 ### 📷 מבנה הפרויקט
-![Chat Image](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/structure.png)
+![Project Structure](https://raw.githubusercontent.com/madadha/SmartChat.WPF/main/structure.png)
 
 ---
 
 ## 🔄 איך המערכת עובדת
 
-1. המשתמש שולח שאלה
-2. המערכת שולחת את השאלה ל-AI
-3. המודל מחליט האם להשתמש בכלי (Tool)
+1. המשתמש שולח שאלה  
+2. המערכת שולחת את השאלה ל-AI  
+3. המודל מחליט האם להשתמש בכלי (Tool)  
 4. אם כן:
-   - הכלי מופעל
-   - התוצאה מוחזרת למודל
-5. המודל מחזיר תשובה סופית למשתמש
+   - הכלי מופעל  
+   - התוצאה מוחזרת למודל  
+5. המודל מחזיר תשובה סופית למשתמש  
 
 ---
 
 ## 🧪 דוגמאות לשימוש
 
+שימוש ב-Date Tool:
+מה השעה עכשיו?
 
-### שימוש ב-Calculator:
+שימוש ב-Calculator Tool:
+כמה זה 5*5?
+
+---
+
 ## 📦 מבנה הפרויקט
+
 SmartChat.WPF
 │
 ├── Models
@@ -115,7 +120,6 @@ SmartChat.WPF
 ├── Helpers
 │
 ├── App.xaml
-
 
 ---
 
@@ -129,15 +133,14 @@ SmartChat.WPF
 
 ## ⚠️ הערות חשובות
 
-- אין להעלות מפתחות API ל-GitHub
-- יש להשתמש ב-Environment Variables
+- אין להעלות מפתחות API ל-GitHub  
+- יש להשתמש ב-Environment Variables  
 
 ---
 
 ## 🏁 סיכום
 
 המערכת מדגימה:
-- שילוב של בינה מלאכותית
-- עבודה עם Tools
-- פיתוח ממשק משתמש מתקדם ב-WPF
-
+- שילוב של בינה מלאכותית  
+- עבודה עם Tools  
+- פיתוח ממשק משתמש מתקדם ב-WPF  
